@@ -29,12 +29,33 @@ main {
     padding: 20px;
 }
 
+.questoes fieldset {
+    border: 1px black solid;
+    margin-bottom: 1em;
+}
+
+.questoes fieldset legend {
+    border: 1px black solid;
+    margin-left: 1em;
+    padding: 0.2em 0.8em;
+}
+
+.questoes input[type="number"] {
+    width: 50px;
+    border: 1px solid #020202;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #e5d2c4;
+    width: 50px;
+}
+
 button {
     background-color: #020202;
     color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+
 }
 
 h2 {
@@ -42,18 +63,18 @@ h2 {
     color: #020202;
 }
 
-ul {
+.listMenu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     margin-left: 10px;
 }
 
-li {
+.listMenu li {
     margin: 10px 0;
 }
 
-li a {
+.listMenu li a {
     display: block;
     padding: 10px 20px;
     background-color: #020202;
@@ -73,6 +94,33 @@ p {
     font-size: 16px;
     color: #020202;
 }
+
+/* Questão 1 */
+
+.q1_select {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.q1_select li {
+    display: flex;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    margin: 10px 0;
+}
+
+.q1_select input[type="radio"] {
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border: none;
+}
+
+
+
 
 @media (max-width: 768px) {
     body {

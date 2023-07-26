@@ -13,7 +13,7 @@
     <main>
       <div class="questoes">
         <h2>Trabalho: Questões</h2>
-        <ul>
+        <ul class="listMenu">
           <li><a href="./q1.php">Questão 1</a></li>
           <li><a href="./q2.php">Questão 2</a></li>
           <li><a href="./q3.php">Questão 3</a></li>
