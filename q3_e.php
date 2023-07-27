@@ -23,7 +23,7 @@
             <h2>Trabalho: Questão 3</h2>
 
             <div class="pergunta">
-                <h3>Pergunta fica aqui amigo?</h2>
+                <h3>Gabarito</h2>
                     <form id="questao" action="q3.php" method="get">
                         <div class="resposta">
                             <ol type="1">
