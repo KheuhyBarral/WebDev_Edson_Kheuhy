@@ -2,6 +2,7 @@
     font-family: monospace;
 }
 
+
 body {
     margin: 0;
     padding: 0;
@@ -24,6 +25,8 @@ main {
     margin: 20px;
 }
 
+
+
 .questoes {
     background-color: #e5d2c4;
     padding: 20px;
@@ -40,6 +43,7 @@ main {
     padding: 0.2em 0.8em;
 }
 
+
 .questoes input[type="number"] {
     width: 50px;
     border: 1px solid #020202;
@@ -50,6 +54,7 @@ main {
 }
 
 button {
+    margin-bottom: 10px;
     background-color: #020202;
     color: white;
     padding: 10px 20px;
@@ -84,15 +89,16 @@ h2 {
     text-decoration: none;
 }
 
+
 /* Questão 1 */
 
-.q1_select {
+.questoes .q1_select {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-.q1_select li {
+.questoes .q1_select li {
     display: flex;
     border: none;
     cursor: pointer;
@@ -101,13 +107,35 @@ h2 {
     margin: 10px 0;
 }
 
-.q1_select input[type="radio"] {
+.questoes .q1_select input[type="radio"] {
     margin: 0 5px;
     width: 15px;
     height: 15px;
     border: none;
 }
 
+/* Questão 3 */
+
+.q3_resp_img {
+    width: 20px;
+    height: 20px;
+}
+
+
+.questoes .pergunta .resposta ol .q3_resp {
+    display: flex;
+    align-items: center;
+}
+
+.questoes .pergunta .resposta ol a {
+    color: #000;
+    text-decoration: none;
+}
+
+.questoes .pergunta .resposta ol #resp {
+    color: #60c90a;
+
+}
 
 /* Footer */
 footer {
@@ -144,7 +172,8 @@ p {
         font-size: 16px;
     }
 
-    ul {
+    ul,
+    ol {
         list-style-type: none;
         margin: 0;
         padding: 0;
