@@ -137,6 +137,48 @@ h2 {
 
 }
 
+/* Questão 4 */
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: block;
+
+}
+
+th,
+td {
+    width: 10vw;
+    border: 1px solid #020202;
+    padding: 10px;
+}
+
+th {
+    color: #FFF;
+    background-color: #000;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+tbody {
+    max-height: 450px;
+    overflow-y: auto;
+    display: block;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
 /* Footer */
 footer {
     background-color: #ded8d8;
@@ -147,53 +189,4 @@ footer {
 p {
     font-size: 16px;
     color: #020202;
-}
-
-
-
-@media (max-width: 768px) {
-    body {
-        font-size: 14px;
-    }
-
-    header {
-        padding: 10px;
-    }
-
-    main {
-        margin: 10px;
-    }
-
-    .questoes {
-        padding: 10px;
-    }
-
-    h2 {
-        font-size: 16px;
-    }
-
-    ul,
-    ol {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        margin-left: 5px;
-    }
-
-    li {
-        margin: 5px 0;
-    }
-
-    a {
-        color: #020202;
-        text-decoration: none;
-    }
-
-    footer {
-        padding: 10px;
-    }
-
-    p {
-        font-size: 12px;
-    }
 }
