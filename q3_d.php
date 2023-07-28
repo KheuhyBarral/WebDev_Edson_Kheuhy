@@ -26,20 +26,20 @@
                     <form id="questao" action="q3.php" method="get">
                         <div class="resposta">
                             <ol type="A">
-                                <a href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r1 ?>&r4=1">
+                                <a href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=1">
                                     <li>Ovo</li>
                                 </a>
-                                <a href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r1 ?>&r4=2">
+                                <a href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=2">
                                     <li>Galinha</li>
                                 </a>
-                                <a href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r1 ?>&r4=3">
+                                <a href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=3">
                                     <li>Galo</li>
                                 </a>
-                                <a href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r1 ?>&r4=4">
+                                <a href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=4">
                                     <li>Pintinho</li>
                                 </a>
                                 <a id="resp"
-                                    href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r1 ?>&r4=5">
+                                    href="q3_e.php?r1=<?php echo $r1 ?>&r2=<?php echo $r2 ?>&r3=<?php echo $r3 ?>&r4=5">
                                     <li>Mario Sergio</li>
                                 </a>
 
