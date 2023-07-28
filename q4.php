@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Questão 4 - Web dev</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style_q4.css" />
     <?php
     $aporte_inical = (isset($_GET["aporte_inicial"]) ? $_GET["aporte_inicial"] : 500);
     $meses = (isset($_GET["meses"]) ? $_GET["meses"] : 12);
@@ -81,7 +82,7 @@
         </div>
     </main>
     <footer>
-        <p>Edson Júnior e Kheuhy Barral - &copy; 2023</p>
+        <p>Edson Júnior e Kheuhy - &copy; 2023</p>
     </footer>
 </body>
 

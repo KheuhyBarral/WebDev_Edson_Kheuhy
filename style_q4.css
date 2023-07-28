@@ -1,0 +1,40 @@
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    display: block;
+
+}
+
+th,
+td {
+    width: 10vw;
+    border: 1px solid #020202;
+    padding: 10px;
+}
+
+th {
+    color: #FFF;
+    background-color: #000;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+tbody {
+    max-height: 450px;
+    overflow-y: auto;
+    display: block;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: #eee;
+}
