@@ -1,14 +1,15 @@
+.tabela {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .IMC-table {
     display: block;
     max-width: 93vw;
     overflow-x: auto;
 }
 
-.tabela {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 th {
     writing-mode: vertical-rl;
@@ -20,6 +21,7 @@ td {
     height: 20px;
     width: 20px;
 }
+
 
 .IMC-baixo-muito-grave {
     width: 100%;
