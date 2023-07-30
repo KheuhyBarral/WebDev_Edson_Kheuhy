@@ -64,7 +64,7 @@
                         for ($altura = 146; $altura <= 210; $altura++) {
                             echo "<tr>";
 
-                            echo "<td>" . $altura . "</td>";
+                            echo "<td class=\"altura\">" . $altura . "</td>";
 
                             for ($peso = 46; $peso <= 120; $peso++) {
                                 $imc = calcularIMC($peso, $altura);

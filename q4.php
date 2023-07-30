@@ -25,7 +25,6 @@
             <fieldset>
                 <legend>Parâmetros</legend>
                 <form action="q4.php" method="get">
-
                     <p>Aporte inicial(R$): <input type="number" min="0" max="99999999.99" name="aporte_inicial"
                             value="<?php echo $aporte_inical ?>" style="width: 100px">[até R$
                         999.999,99]</p>
@@ -56,6 +55,7 @@
                                 <th>Rendimento (R$)</th>
                                 <th>Total (R$)</th>
                             </tr>
+                        </thead>
                         <tbody>
                             <?php
                             for ($i = 1; $i <= $meses; $i++) {
@@ -72,7 +72,6 @@
 
                             ?>
                         </tbody>
-                        </thead>
                     </table>
                 </div>
             </fieldset>

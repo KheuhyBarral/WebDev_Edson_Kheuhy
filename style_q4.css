@@ -5,10 +5,14 @@
 }
 
 table {
-    border-collapse: collapse;
-    margin-top: 20px;
     display: block;
-
+    margin-top: 20px;
+    border-collapse: collapse;
+    max-width: 70vw;
+    max-height: 480px;
+    overflow-x: auto;
+    overflow-y: auto;
+    position: relative;
 }
 
 th,
@@ -22,17 +26,14 @@ th {
     color: #FFF;
     background-color: #000;
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 td {
     text-align: center;
 }
 
-tbody {
-    max-height: 450px;
-    overflow-y: auto;
-    display: block;
-}
 
 
 tbody tr:nth-child(even) {
