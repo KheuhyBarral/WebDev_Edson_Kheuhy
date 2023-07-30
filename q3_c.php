@@ -54,7 +54,7 @@
         </div>
     </main>
     <footer>
-        <p>Edson Júnior e Kheuhy - &copy; 2023</p>
+        <p>Edson Júnior e Kheuhy Barral - &copy; 2023</p>
     </footer>
 </body>
 
