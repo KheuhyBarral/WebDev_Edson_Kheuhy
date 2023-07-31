@@ -71,7 +71,7 @@
                                 $tipo_imc = tipoIMC($imc);
                                 $title = "$tipo_imc \nAltura(cm): " . $altura . "\nPeso(kg): " . $peso . "\nIMC: " . sprintf("%.2f", $imc);
 
-                                echo "<td>" . "<div title=\"" . $title . "\" class=\"IMC-" . $tipo_imc . "\"> </div>" . "</td>";
+                                echo "<td title=\"" . $title . "\" class=\"IMC-" . $tipo_imc . "\">" . "</td>";
                             }
                             echo "</tr>";
                         }
